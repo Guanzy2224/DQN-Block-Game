@@ -37,7 +37,7 @@ In this project, here is the definition of key variables in this algorithm:
 3. Keras
 
 ## Usage ##
-I try to make it as easy as possible for beginner user to run, so it is organized in only one file. Open it, select all, and run it.
+I try to make it as easy as possible for beginner user to run, so it is organized in only one file. Open *AI.py*, select all, and run it.
 
 ## Performance and Discussion
 
