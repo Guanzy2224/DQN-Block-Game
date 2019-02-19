@@ -31,6 +31,14 @@ In this project, here is the definition of key variables in this algorithm:
 
 **Q-value:** The value of taking action **A** under policy **π** given state **S<sub>t</sub>**
 
+## Requirements ##
+1. Python 2.7
+2. Tensorflow
+3. Keras
+
+## Usage ##
+I try to make it as easy as possible for beginner user to run, so it is organized in only one file. Open it, select all, and run it.
+
 ## Performance and Discussion
 
 The agent learns gradually how to play. In beginning stage, when policy is basically to random choose an action, the agent can survive about 30-60 steps. After about 1700 episode of game, it can survive hundreds of steps. The training process took a whole night to complete. If we keep training, it can be expected that the performance will keep increase.
