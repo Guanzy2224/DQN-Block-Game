@@ -41,10 +41,12 @@ The agent learns gradually how to play. In beginning stage, when policy is basic
 However, even after a thousand of games of training, it will still take bad actions sometimes. One reason could be that the agent will act poorly when it met some state that it has never seen anything similar before. A fact is that when the agent is surprised by a new state, the training loss will be higher. So we can use the training loss to prove this hypothesis:
 
 ![alt text](https://github.com/Guanzy2224/DQN-Block-Game/blob/master/Analysis/Episode%201%20-%209.png)
-** Training Loss of episodes 1-9 **
+**Training Loss of episodes 1-9**
+
 
 ![alt text](https://github.com/Guanzy2224/DQN-Block-Game/blob/master/Analysis/Episode%201001%20-%201009.png)
-** Training Loss of episodes 1001-1009 **
+**Training Loss of episodes 1001-1009**
+
 
 In the early stage of training process, training loss decreases as steps increase, but it occassionally surprised by the unseen state. It estimates the state to be just, but the deduction of next step shows this is a dead end, so the agent is surprised. This is reflected by high training loss. This happens less frequently in later stage of training process, but when it happened, the game is likely to end.
 
