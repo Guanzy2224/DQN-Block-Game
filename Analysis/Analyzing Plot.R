@@ -1,6 +1,6 @@
 # Read in data
 setwd('D:/BOX AI')
-dat = read.csv('11.csv')
+dat = read.csv('Training Loss.csv')
 
 # Plot earlier and infant episodes
 par(mfrow = c(3,3))
